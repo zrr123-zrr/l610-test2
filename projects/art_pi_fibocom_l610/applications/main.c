@@ -13,7 +13,7 @@
 #include "drv_common.h"
 
 #define LED_PIN GET_PIN(I, 8)
-
+//zhangyang
 void l610_power_init(void)
 {
     rt_pin_mode(GET_PIN(I, 5), PIN_MODE_OUTPUT);
